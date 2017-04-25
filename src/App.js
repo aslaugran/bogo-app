@@ -42,7 +42,7 @@ export default class App extends Component {
     });
   }
   handleTourSelected(data) {
-    console.log("in app.js - handleTourSelected", data);
+    console.log("in app.js og  - handleTourSelected", data);
     this.setState({
       selectedCategory: false
     });
