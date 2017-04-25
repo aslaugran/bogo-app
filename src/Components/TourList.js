@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Tour from "./Tour";
 import tours from "../json/tours.json";
+import axios from "axios";
 
 export default class TourList extends Component {
   constructor(props) {
@@ -13,16 +14,21 @@ export default class TourList extends Component {
   componentDidMount() {
     const { categoryId } = this.props;
 
-    // console.log(
-    //   "http://www.extranet.bogo.is/api/tours/58fcc108ecc2cc0282ccad6e" +
-    //     categoryId
-    // );
-
-    setTimeout(() => {
-      this.setState({
-        tours: tours.data
+    axios
+      .get("http://www.extranet.bogo.is/api/tours/58fcc108ecc2cc0282ccad6e")
+      .then(response => {
+        console.log(response);
+        this.setState({ tours: response.data });
+      })
+      .catch(error => {
+        console.log(error);
       });
-    }, 200);
+
+    // setTimeout(() => {
+    //   this.setState({
+    //     tours: tours.data
+    //   });
+    // }, 200);
   }
 
   render() {
