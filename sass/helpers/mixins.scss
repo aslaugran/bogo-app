@@ -1,0 +1,46 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:200,400,900');
+
+
+@mixin fonts ($text) {
+
+	@if $text == h1 {
+	/* heading text #1 */
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.813em;
+  // line-height: 2.813em;
+  color: $white;
+	margin: 0;
+	}
+
+  @if $text == h2 {
+  /* heading text #2 */
+	font-family: 'Hind', sans-serif;
+  font-size: 1.875em;
+  // line-height: 1.875em;
+	font-weight: 400;
+  color: $white;
+	margin: 0;
+	margin-bottom: 50px;
+  }
+
+	@if $text == h3 {
+	/* heading text #3 */
+	font-family: 'Hind', sans-serif;
+	font-size: 1.875em;
+	line-height: 1.875em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $white;
+	}
+
+	@if $text == p {
+	/* paragraph text */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 200;
+	color: $dark-grey;
+	}
+}

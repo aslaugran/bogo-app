@@ -1,0 +1,62 @@
+/****************************************
+Header AREA
+****************************************/
+.header {
+  height: 10%;
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
+}
+
+.header div:last-child {
+  margin-left: auto;
+  margin-right: 50px;
+}
+/****************************************
+logo AREA
+****************************************/
+.logo {
+  height: 40px;
+  margin: 20px 60px;
+  align-self: center;
+}
+.vertical_line {
+  width: 1px;
+  height: 60px;
+  background-color: $light-grey;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/****************************************
+SEARCH AREA
+****************************************/
+.search_area {
+  width: 100%;
+  display: flex;
+}
+.search_icon {
+  height: 30px;
+}
+.search_field {
+  background: $white;
+  border: none;
+  align-self: center;
+  margin-left: 30px;
+  height: 30px;
+  width: 95%;
+}
+/****************************************
+Cart AREA
+****************************************/
+.cart_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart_icon {
+  height: 40px;
+  align-self: center;
+}

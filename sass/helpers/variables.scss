@@ -1,0 +1,25 @@
+// Colors
+$white: #fff;
+$dark-grey: #555;
+$light-grey: #CFCFCF;
+
+
+// Font-stack
+$stack-headings: 'Coda', cursive;
+
+// Á eftir að setja inn stack-body-text fyrir meginmál
+// $stack-body-text: 'Buenard', serif;
+
+// Dimentions
+$containerWidth: 100vw;
+.wrap {
+  max-width: $containerWidth;
+  width: 100%;
+  margin: 0 auto;
+}
+
+$innerContainerWidth: 1024px;
+.inner-wrap {
+  width: $innerContainerWidth;
+  margin: 0 auto;
+}
