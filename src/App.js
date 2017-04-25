@@ -76,13 +76,12 @@ export default class App extends Component {
     }
 
     return (
-      <div>
-        <div className="main-header">
-          <div className="inner">
-            <h1 className="main-title">Whatever Titill</h1>
-            <SearchForm />
-          </div>
+      <div className="main-header">
+        <div className="inner">
+          {/* <h1 className="main-title">Whatever Titill</h1> */}
+          <SearchForm />
         </div>
+
         <div className="main-content">
           {categoryList}
           {tourList}

@@ -47,6 +47,6 @@ export default class TourList extends Component {
       );
     });
 
-    return <div>{toursList}</div>;
+    return <div className="tours_container">{toursList}</div>;
   }
 }

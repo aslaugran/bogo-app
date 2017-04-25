@@ -173,8 +173,7 @@ Cart AREA
 }
 
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 0 2%;
 }
 
 .categories {
@@ -187,7 +186,6 @@ Cart AREA
           flex-direction: row;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
-  width: 100vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -205,9 +203,9 @@ Cart AREA
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
   border-radius: 10px;
   position: relative;
+  padding-bottom: 2%;
 }
 
 .categorie_single .cat_title {
@@ -215,7 +213,16 @@ Cart AREA
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -50px;
+}
+
+.tours_container {
+  background: #E38F13;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(bottom right, #E38F13, #F6AF47);
+  /* Standard syntax (must be last) */
 }
 
 /****************************************
