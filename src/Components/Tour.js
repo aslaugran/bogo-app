@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Slider from "react-slick";
 
 export default class Tour extends Component {
   constructor(props) {
@@ -7,30 +8,13 @@ export default class Tour extends Component {
   }
 
   handleClick() {
-    console.log("halló");
     this.props.onTourSelected(this.props.data);
   }
   render() {
-    const { mainphoto, name, introtext, priceadult } = this.props.data;
-
+    const { img, title, subtitle, price } = this.props.data;
     return (
-      <div className="card_single">
-        <div className="card" onClick={() => this.handleClick()}>
-          <div className="card_tour_photo">
-            <img
-              className=""
-              src={"http://www.extranet.bogo.is/" + mainphoto}
-              alt=""
-            />
-          </div>
-          <div className="card_text_container">
-            <h3 className="card_tour_title">{name}</h3>
-            <div className="sub-txt">
-              <p className="card_subtitle">{introtext}</p>
-              <p className="card_price">{priceadult}</p>
-            </div>
-          </div>
-        </div>
+      <div onClick={() => this.handleClick()}>
+        <h3 className="tour_title">{title}</h3>
       </div>
     );
   }

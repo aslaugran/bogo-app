@@ -1,12 +1,15 @@
 import React, { Component } from "react";
+import Slider from "react-slick";
 // import logo from './logo.svg';
 import "../dist/style.css";
-import SearchForm from "./Components/SearchForm";
+// import axios from "axios";
+import AppHeader from "./Components/AppHeader";
 import CategoryList from "./Components/CategoryList";
 import TourList from "./Components/TourList";
 import TourDetails from "./Components/TourDetails";
 
 import categories from "./json/categories.json";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -76,12 +79,12 @@ export default class App extends Component {
     }
 
     return (
-      <div className="main-header">
-        <div className="inner">
-          {/* <h1 className="main-title">Whatever Titill</h1> */}
-          <SearchForm />
+      <div>
+        <div className="main-header">
+          <div className="inner">
+            <AppHeader />
+          </div>
         </div>
-
         <div className="main-content">
           {categoryList}
           {tourList}

@@ -1,60 +1,9 @@
 {
-  "data": [{
-    "id": 1,
-    "category": "Adventure",
+  "data": [{  "id": 2,
+    "category": "hlemmi",
     "title": "Take a Walk on the Ice Side",
     "subtitle": "Always dreamed of hiking on a glacier?",
     "price": "24.900 ISK",
-    "img" : "/img/Adventure/take_a_walk_on_the_ice_side/photo52banner.jpeg",
-    "text" : "lsdfkjæasdlkfjsadælkkldfjhsdælkfjsdælakfjdsælkfjsdaælkfjsdaælkfjdsælfkdjæfdlaskj"
-  },{
-    "id": 2,
-    "category": "Adventure",
-    "title": "Glacier Adventure",
-    "subtitle": "Snowmobile adventure on Mýrdalsjökull Glacier",
-    "price": "32.900 ISK",
-    "img" : "/img/Categories/BlueLagoonCard2x.png"
-  },{
-    "id": 3,
-    "category": "Adventure",
-    "title": "Puffin Express",
-    "subtitle": "Birdlife at its best in only one hour",
-    "price": "7.700 ISK",
-    "img" : "/img/Categories/GoldenCircleCard2x.png"
-  },{
-    "id": 4,
-    "category": "Adventure",
-    "title": "Langjökull Ice Cave Experience",
-    "subtitle": "Visit a unique and pioneering man-made cave",
-    "price": "29.900 ISK",
-    "img" : "/img/Categories/NatureCard2x.png"
-  },{
-    "id": 5,
-    "category": "Adventure",
-    "title": "Essential Iceland",
-    "subtitle": "Super jeeps, Langjökull glacier, hot springs and caves",
-    "price": "45.900 ISK",
-    "img" : "/img/Categories/NorthernLightsCard2x.png"
-  },{
-    "id": 6,
-    "category": "Adventure",
-    "title": "Panorama ATV Tour",
-    "subtitle": "Exciting ride through different landscape",
-    "price": "17.900 ISK",
-    "img" : "/img/Categories/ReykjavikCard2x.png"
-  },{
-    "id": 7,
-    "category": "Adventure",
-    "title": "Volcano & Glacier Walk",
-    "subtitle": "Right next to Eyjafjallajökull",
-    "price": "47.900 ISK",
-    "img" : "/img/Categories/ReykjavikCard2x.png"
-  },{
-    "id": 8,
-    "category": "Adventure",
-    "title": "Lava Beach ATV Tour",
-    "subtitle": "Exciting ride through different landscape",
-    "price": "24.900 ISK",
-    "img" : "/img/Categories/ReykjavikCard2x.png"
+    "img" : "https://photos.smugmug.com/Europe/Iceland/i-mW6bTxd/0/X2/gullfoss-waterfall-X2.jpg"
   }]
 }

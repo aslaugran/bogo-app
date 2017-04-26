@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:200,400,900");
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
 .wrap {
   max-width: 100vw;
   width: 100%;
@@ -42,15 +44,14 @@ h3 {
   font-size: 1.875em;
   line-height: 1.875em;
   font-weight: 700;
-  text-transform: uppercase;
   color: #fff;
 }
 
 .container-fluid,
 section.texture.col-md-7,
 section.shade.col-md-5 {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .centerme {
@@ -76,12 +77,6 @@ Header AREA
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-flow: nowrap;
-      flex-flow: nowrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -97,7 +92,7 @@ logo AREA
 ****************************************/
 .logo {
   height: 40px;
-  margin: 20px 60px;
+  margin: 20px 75px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -143,10 +138,6 @@ Cart AREA
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -154,137 +145,103 @@ Cart AREA
 
 .cart_icon {
   height: 40px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.categories_title {
-  display: block;
-}
-
-.categories_bg {
-  width: 100vw;
-  background-color: #555;
+  margin: 20px 75px;
 }
 
 .categories_title {
   padding-top: 60px;
+  padding-left: 15px;
 }
 
-.container {
-  padding: 0 2%;
-}
-
-.categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.categories_title h1 {
+  font-size: 36px;
 }
 
 .categorie_single {
-  cursor: pointer;
-  height: 282px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
   border-radius: 10px;
+  text-align: center;
   position: relative;
-  padding-bottom: 2%;
 }
 
-.categorie_single .cat_title {
+.cat_title {
   position: absolute;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  height: 100px;
+  text-transform: uppercase;
 }
 
-.tours_container {
-  height: 100vh;
-  background: #E38F13;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(bottom right, #E38F13, #F6AF47);
-  /* Standard syntax (must be last) */
+.main-content {
+  background: #5B5B5B;
+}
+
+.tourcard {
+  padding: 60px 0px;
+  margin: auto;
+  position: relative;
+}
+
+.tourcard img {
+  border-radius: 30px;
+  height: 500px;
+  width: 1075px;
+  margin: auto;
+  transition: height 0.3s ease;
+}
+
+.slick-slide.slick-active.slick-center.tourcard img {
+  height: 550px;
+  transition: height 0.3s ease;
+}
+
+.tourdetails {
+  position: absolute;
+  left: 15%;
+  width: 100%;
+  overflow: hidden;
+  bottom: 90px;
+  color: #fff;
+}
+
+.container-fluid.card-swipe {
+  padding: 0px;
+}
+
+.tourdetails h3 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.tourdetails p {
+  font-size: 30px;
+  font-family: 'Hind', sans-serif;
+  font-weight: 200;
+  margin-top: 0px;
 }
 
 /****************************************
 Hero
 ****************************************/
-.hero_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hero_button_group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.btn_photo_group,
-.btn_video_group,
-.btn_map_group {
-  background: #CFCFCF;
-  max-width: 50px;
-}
-
-/****************************************
-Text area
-****************************************/
-.txt_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.hero {
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 3rem;
 }
 
 /****************************************
 Main text area
 ****************************************/
-.txt_container {
-  background-color: #CFCFCF;
-}
-
 /****************************************
-Tour details
+Tour detales
 ****************************************/
-.tour_detail_container {
-  background-color: #F3F3F3;
-}
-
 .footer_container {
   display: -webkit-box;
   display: -ms-flexbox;

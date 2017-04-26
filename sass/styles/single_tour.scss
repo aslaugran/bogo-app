@@ -1,52 +1,22 @@
 /****************************************
 Hero
 ****************************************/
-
-.hero_container {
+.hero {
   // background: url(../dist/img/Adventure/take_a_walk_on_the_ice_side/photo52banner.jpeg) no-repeat center center;
-  // background-size: cover;
-  // height: 100vh;
-  // margin-bottom: 3rem;
-
-  display: flex;
-  flex-direction: column;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 3rem;
 }
 
 .hero_txt {
 
 }
 
-.hero_button_group {
-  display: flex;
-  flex-direction: column;
-}
-
-.btn_photo_group,
-.btn_video_group,
-.btn_map_group {
-  background: $light-grey;
-  max-width: 50px;
-}
-
-/****************************************
-Text area
-****************************************/
-.txt_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
 /****************************************
 Main text area
 ****************************************/
-.txt_container {
-  background-color: $light-grey;
-}
+
 
 /****************************************
-Tour details
+Tour detales
 ****************************************/
-.tour_detail_container {
-  background-color: $lighter-light-grey;
-}

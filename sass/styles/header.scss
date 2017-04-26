@@ -5,8 +5,6 @@ Header AREA
   height: 10%;
   background-color: $white;
   display: flex;
-  flex-direction: row;
-  flex-flow: nowrap;
   align-items: center;
 }
 
@@ -19,7 +17,7 @@ logo AREA
 ****************************************/
 .logo {
   height: 40px;
-  margin: 20px 60px;
+  margin: 20px 75px;
   align-self: center;
 }
 .vertical_line {
@@ -53,10 +51,9 @@ Cart AREA
 ****************************************/
 .cart_area {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .cart_icon {
   height: 40px;
-  align-self: center;
+  margin: 20px 75px;
 }

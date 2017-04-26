@@ -1,0 +1,55 @@
+.main-content {
+   background: #5B5B5B;
+}
+
+.tourcard {
+  padding: 60px 0px;
+  margin: auto;
+  position: relative;
+}
+
+.tourcard img {
+    border-radius: 30px;
+    height: 500px;
+    width: 1075px;
+    margin: auto;
+    -moz-transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+.slick-slide.slick-active.slick-center.tourcard img {
+  height: 550px;
+  -moz-transition: height 0.3s ease;
+  -webkit-transition: height 0.3s ease;
+  -o-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+}
+
+
+.tourdetails {
+    position: absolute;
+    left: 15%;
+    width: 100%;
+    overflow: hidden;
+    bottom: 90px;
+    color: #fff;
+}
+
+.container-fluid.card-swipe {
+  padding: 0px;
+}
+
+.tourdetails h3 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.tourdetails p {
+  font-size: 30px;
+  font-family: 'Hind', sans-serif;
+  font-weight: 200;
+  margin-top: 0px;
+}
