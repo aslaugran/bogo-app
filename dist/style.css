@@ -226,69 +226,34 @@ Cart AREA
   /* Standard syntax (must be last) */
 }
 
-.card_single {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 80vw;
-  height: 60vh;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-}
-
-.card_tour_photo {
-  border-radius: 10px;
-}
-
-.sub-txt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 /****************************************
 Hero
 ****************************************/
-.hero {
-  background-size: cover;
-  height: 100vh;
-  margin-bottom: 3rem;
+.hero_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero_button_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn_photo_group,
+.btn_video_group,
+.btn_map_group {
+  background: #CFCFCF;
+  max-width: 50px;
 }
 
 /****************************************
@@ -309,9 +274,17 @@ Text area
 /****************************************
 Main text area
 ****************************************/
+.txt_container {
+  background-color: #CFCFCF;
+}
+
 /****************************************
-Tour detales
+Tour details
 ****************************************/
+.tour_detail_container {
+  background-color: #F3F3F3;
+}
+
 .footer_container {
   display: -webkit-box;
   display: -ms-flexbox;

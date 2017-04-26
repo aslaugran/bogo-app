@@ -12,32 +12,32 @@ export default class TourDetails extends Component {
         {/*Hero container starts*/}
         <div className="hero_container">
           <div className="hero_button_group">
+
             <div className="btn_photo_group">
-              <div className="btn_photo_group">
-                <img
-                  className="btn_img"
-                  src={process.env.PUBLIC_URL + "/img/Icons/photos.svg"}
-                  alt=""
-                />
-                <p className="icon_txt">Photos</p>
-              </div>
-              <div className="btn_video_group">
-                <img
-                  className="btn_img"
-                  src={process.env.PUBLIC_URL + "/img/Icons/video.svg"}
-                  alt=""
-                />
-                <p className="icon_txt">Video</p>
-              </div>
-              <div className="btn_map_group">
-                <img
-                  className="btn_img"
-                  src={process.env.PUBLIC_URL + "/img/Icons/map.svg"}
-                  alt=""
-                />
-                <p className="icon_txt">Map</p>
-              </div>
+              <img
+                className="btn_img"
+                src={process.env.PUBLIC_URL + "/img/Icons/photos.svg"}
+                alt=""
+              />
+              <p className="icon_txt">Photos</p>
             </div>
+            <div className="btn_video_group">
+              <img
+                className="btn_img"
+                src={process.env.PUBLIC_URL + "/img/Icons/video.svg"}
+                alt=""
+              />
+              <p className="icon_txt">Video</p>
+            </div>
+            <div className="btn_map_group">
+              <img
+                className="btn_img"
+                src={process.env.PUBLIC_URL + "/img/Icons/map.svg"}
+                alt=""
+              />
+              <p className="icon_txt">Map</p>
+            </div>
+
             <div className="hero_txt">
               <div className="single_tour_title">
                 {this.props.data.name}
@@ -116,21 +116,20 @@ export default class TourDetails extends Component {
                 {this.props.data.additionalinfo}
               </p>
             </div>
+            {/*Tour Supplier starts*/}
+            <div>
+              <h4 className="single_tour_txt_title">
+                {this.props.data.supplier}
+              </h4>
+              <img
+                className="btn_img"
+                src={process.env.PUBLIC_URL + "/img/Logos/re_logo.png"}
+                alt=""
+              />
+            </div>
+            {/*Tour Supplier finish*/}
           </div>
           {/*Tour details finish*/}
-
-          {/*Tour Supplier starts*/}
-          <div>
-            <h4 className="single_tour_txt_title">
-              {this.props.data.supplier}
-            </h4>
-            <img
-              className="btn_img"
-              src={process.env.PUBLIC_URL + "/img/Logos/re_logo.svg"}
-              alt=""
-            />
-          </div>
-          {/*Tour Supplier finish*/}
         </div>
       </div>
     );

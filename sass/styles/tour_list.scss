@@ -8,28 +8,28 @@
   background: linear-gradient(bottom right, #E38F13, #F6AF47); /* Standard syntax (must be last) */
 }
 
-.card_single {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  width: 80vw;
-  height: 60vh;
-}
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.card_tour_photo {
-  border-radius: 10px;
-}
-
-.sub-txt {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+// .card_single {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   align-items: center;
+//   justify-content: center;
+//   width: 80vw;
+//   height: 60vh;
+// }
+// .card {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   overflow: hidden;
+// }
+//
+// .card_tour_photo {
+//   border-radius: 10px;
+// }
+//
+// .sub-txt {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
