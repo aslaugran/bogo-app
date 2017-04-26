@@ -22,9 +22,9 @@ const CategoryList = props => {
         <div className="categories">
           {categories}
         </div>
-        <footer class="footer_container">
-          <div class="footer_content">
-            <a class="company" href="http://bogo.is/">
+        <footer className="footer_container">
+          <div className="footer_content">
+            <a className="company" href="http://bogo.is/">
               powered by bógó <img src="" alt="" />
             </a>
           </div>

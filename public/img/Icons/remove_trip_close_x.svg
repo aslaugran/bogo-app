@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Remove</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" opacity="0.750169837" stroke-linejoin="round">
+        <g id="iPad-Pro-Landscape-Copy-15" transform="translate(-715.000000, -202.000000)" stroke="#FFFFFF" stroke-width="2.70000005">
+            <g id="Group-4" transform="translate(145.000000, 183.000000)">
+                <g id="Card1">
+                    <g id="Remove" transform="translate(572.000000, 21.000000)">
+                        <path d="M11,11 L24,24" id="Stroke-1"></path>
+                        <path d="M11,24 L24,11" id="Stroke-2"></path>
+                        <path d="M35,17.5 C35,27.1646425 27.1646425,35 17.5,35 C7.83535753,35 0,27.1646425 0,17.5 C0,7.83535753 7.83535753,0 17.5,0 C27.1646425,0 35,7.83535753 35,17.5" id="Stroke-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
